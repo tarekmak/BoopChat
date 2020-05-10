@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/receiver_msg_profileImg"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        android:src="@drawable/profile_img"
+        android:layout_alignBottom="@+id/receiver_msg_text"
+        />
+
+
+
+    <TextView
+        android:padding="10dp"
+        android:id="@+id/receiver_msg_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="2dp"
+        android:layout_toEndOf="@+id/receiver_msg_profileImg"
+        android:background="@drawable/receiver_msg_layout"
+        android:text="@string/hello_my_name_is"
+        android:textColor="@android:color/white"
+        android:textSize="17dp"
+
+        />
+    <TextView
+        android:id="@+id/receiver_msg_datetime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="2dp"
+        android:layout_below="@+id/receiver_msg_text"
+        android:layout_alignStart="@+id/receiver_msg_text"
+        android:text="@string/_11_01_19_2_11_am"
+        android:textColor="#58595B"
+        android:textSize="13dp"
+        />
+
+    <TextView
+        android:padding="10dp"
+        android:id="@+id/sender_msg_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="@+id/receiver_msg_text"
+        android:textAlignment="textStart"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        android:background="@drawable/sender_msg_layout"
+        android:text="@string/hello_my_name_is"
+        android:textColor="@android:color/white"
+        android:textSize="17dp"
+        />
+
+    <TextView
+        android:id="@+id/sender_msg_datetime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="2dp"
+        android:layout_below="@+id/sender_msg_text"
+        android:layout_alignEnd="@+id/sender_msg_text"
+        android:text="@string/_11_01_19_2_11_am"
+        android:textColor="#58595B"
+        android:textSize="13sp"
+        />
+
+    <TextView
+        android:id="@+id/sender_msg_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="2dp"
+        android:layout_below="@+id/sender_msg_datetime"
+        android:layout_alignEnd="@+id/sender_msg_text"
+        android:text="@string/delivered"
+        android:textColor="#58595B"
+        android:textSize="13sp"
+        android:visibility="visible"
+        />
+
+    <ImageView
+        android:id="@+id/sender_msg_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="5dp"
+        android:scaleType="centerCrop"
+        />
+
+    <ImageView
+        android:id="@+id/receiver_msg_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:scaleType="centerCrop"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="2dp"
+        android:layout_toEndOf="@+id/receiver_msg_profileImg"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,107 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/user_display_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="15dp"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/find_friends_profile_image"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/profile_img" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/find_friends_username"
+                    android:layout_weight=".9"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:textAlignment="textStart"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:text="@string/username"
+                    android:textColor="@android:color/background_light"/>
+
+                <ImageView
+                    android:id="@+id/find_friends_user_state_icon"
+                    android:layout_width="17dp"
+                    android:layout_height="17dp"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginEnd="7dp"
+
+                    android:src="@drawable/online"
+                    android:visibility="invisible" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/find_friends_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/status"
+                android:textAlignment="textStart"
+                android:textSize="15sp"
+                android:textColor="#5D5F67"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                android:id="@+id/accept_request_button"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="@string/accept"
+                android:textSize="15sp"
+                android:textAllCaps="false"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/holo_green_dark"
+                android:textColor="@android:color/white"
+                android:visibility="invisible"/>
+
+                <Button
+                    android:id="@+id/decline_request_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/decline"
+                    android:textSize="15sp"
+                    android:textAllCaps="false"
+                    android:background="@android:color/holo_red_dark"
+                    android:textColor="@android:color/white"
+                    android:visibility="invisible"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

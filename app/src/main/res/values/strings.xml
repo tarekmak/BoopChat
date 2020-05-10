@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">BoopChat</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="seen_text">Seen</string>
+    <string name="type_a_message">Type a message</string>
+    <string name="no_results">No Results</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="login_using_phone">Login Using Phone</string>
+    <string name="type_the_verification_code">Type the verification code</string>
+    <string name="send_verification_code">Send Verification Code</string>
+    <string name="type_your_phone_number">Your phone number (e.g. +961 01 ...)</string>
+    <string name="verify">Verify</string>
+    <string name="send_friend_request">Send Friend Request</string>
+    <string name="retype_password">Retype Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="type_your_email">Type your email</string>
+    <string name="send_mail">Send Mail</string>
+    <string name="done">Done</string>
+    <string name="translation">Translation:   </string>
+    <string name="off">Off</string>
+    <string name="on">On</string>
+    <string name="username">Username</string>
+    <string name="last_seen">Last seen</string>
+    <string name="_11_01_19_2_11_am">11/01/19, 2:11 AM</string>
+    <string name="hello_my_name_is">Hello my name is</string>
+    <string name="delivered">Delivered</string>
+    <string name="you_have_no_chats">You Have no Chats</string>
+    <string name="you_have_no_contacts">You Have no Contacts</string>
+    <string name="no_recent_requests">No Recent Requests</string>
+    <string name="decline">Decline</string>
+    <string name="accept">Accept</string>
+    <string name="status">Status</string>
+    <string name="has_sent_you_a_friend_request">has sent you a friend request</string>
+    <string name="unfriend">Unfriend</string>
+    <string name="chat">Chat</string>
+    <string name="cancel_friend_request">Cancel Friend Request</string>
+    <string name="cancel">Cancel</string>
+    <string name="no_recent_messages">No recent messages</string>
+    <string name="you_sent_an_image">You sent an image.</string>
+    <string name="search">Search</string>
+    <string name="find_friends">Find Friends</string>
+    <string name="settings">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="about_yourself">About Yourself</string>
+    <string name="your_username">Your Username</string>
+    <string name="accept_friend_request">Accept Friend Request</string>
+    <string name="decline_friend_request">Decline Friend Request</string>
+    <string name="online">Online</string>
+    <string name="you">You:</string>
+    <string name="sent_an_image">sent an image.</string>
+    <string name="yet_to_reply_to_your_friend_request">is yet to reply to your friend request</string>
+
+    <string-array name="languages">
+        <item>English</item>
+        <item>French</item>
+        <item>Arabic</item>
+        <item>Spanish</item>
+        <item>German</item>
+        <item>Italian</item>
+        <item>Portuguese</item>
+        <item>Russian</item>
+        <item>Japanese</item>
+        <item>Turkish</item>
+        <item>Chinese</item>
+    </string-array>
+</resources>
